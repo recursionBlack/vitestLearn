@@ -1,3 +1,5 @@
+import { logDealRound } from "./helpers/loggers";
+
 interface Card { suit: string; value: string }
 
 // 发牌函数
@@ -11,6 +13,8 @@ export function deal(cards:{suit:string, value: string}[], handsize:number, numb
             }
             hands[playIndex].push(cards.shift() as Card);
         }
+
+        logDealRound(hands, i + 1);
     }
 
     return hands;

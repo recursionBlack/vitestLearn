@@ -1,0 +1,27 @@
+{
+  "name": "vitestlearn",
+  "version": "1.0.0",
+  "description": "vitest的学习，简单写几个例子，练习",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recursionBlack/vitestLearn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/recursionBlack/vitestLearn/issues"
+  },
+  "homepage": "https://github.com/recursionBlack/vitestLearn#readme",
+  "devDependencies": {
+    "@vitest/coverage-istanbul": "^4.0.4",
+    "@vitest/coverage-v8": "^4.0.4",
+    "@vitest/ui": "^4.0.4",
+    "vitest": "^4.0.4"
+  }
+}
